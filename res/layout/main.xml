@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/MainDesc" android:paddingLeft="5sp" android:paddingRight="5sp" android:paddingTop="10sp" android:paddingBottom="10sp"/>
+<TableLayout android:id="@+id/tableLayout1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="20sp" android:paddingTop="5sp">
+    <TableRow android:padding="5sp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tableRow1">
+        <TextView android:text="@string/MainTextLaw" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:paddingRight="15sp"></TextView>
+        <EditText android:layout_weight="1" android:id="@+id/editTextLaw" android:layout_height="wrap_content" android:layout_width="wrap_content" android:ems="6" android:singleLine="true" android:inputType="textNoSuggestions|textVisiblePassword"></EditText>
+        <Button android:id="@+id/buttonIndex" android:text="@string/MainButtonIndex" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="10sp"></Button>
+    </TableRow>
+    <TableRow android:padding="5sp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tableRow2">
+        <TextView android:text="@string/MainTextParagraph" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView2" android:paddingRight="15sp" android:gravity="right"></TextView>
+        <EditText android:layout_weight="1" android:id="@+id/editTextParagraph" android:layout_height="wrap_content" android:layout_width="wrap_content" android:ems="6" android:singleLine="true" android:inputType="textNoSuggestions|textVisiblePassword"></EditText>
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="wrap_content"></LinearLayout>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="5sp"  android:paddingRight="5sp"  android:paddingTop="30sp">
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical" android:id="@+id/linearLayout2"></LinearLayout>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/buttonSearch" android:text="@string/MainButtonSearch"></Button>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/linearLayout3"></LinearLayout>
+    </TableRow>
+</TableLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">Allex</string>
+    <string name="MainDesc">Search in german laws</string>
+    <string name="MainButtonSearch">Search</string>
+    <string name="MainTextParagraph">§</string>
+    <string name="MainTextLaw">Law</string>
+    <string name="MainButtonIndex"><u>Index</u></string>
+    <string name="htmlsource">Einzelnorm</string>
+    <string name="LoadingDialogTitle">Searching ...</string>
+    <string name="LoadingDialogText">Please Wait</string>
+</resources>
