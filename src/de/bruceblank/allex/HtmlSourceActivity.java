@@ -24,7 +24,8 @@ public class HtmlSourceActivity extends Activity {
 	private final String TAG = this.getClass().getSimpleName();
 	private ProgressDialog loadingDialog;
 	// TODO: change title of HtmlSourceActivity to text in title-TAG of HTML
-	private String htmlSourceTitle = this.getString(R.string.htmlsource);
+	// NOTE: this call will result in a crash 
+	//private String htmlSourceTitle = this.getString(R.string.htmlsource);
 	
 	// called on create
     @Override
